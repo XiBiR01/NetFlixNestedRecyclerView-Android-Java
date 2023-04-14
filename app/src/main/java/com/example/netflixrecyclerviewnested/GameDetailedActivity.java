@@ -13,6 +13,7 @@ public class GameDetailedActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game_detailed);
+        getSupportActionBar().hide();
         Intent data=getIntent();
         int image=data.getIntExtra("gameArt",0);
         String gameName=data.getStringExtra("gameName").toString();

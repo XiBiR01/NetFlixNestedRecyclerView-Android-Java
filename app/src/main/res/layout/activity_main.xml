@@ -12,8 +12,10 @@
         android:id="@+id/textView2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="TITLE"
+        android:text="Nested RecyclerView"
+        android:textColor="@color/red"
         android:textSize="30sp"
+        android:background="@color/grey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
